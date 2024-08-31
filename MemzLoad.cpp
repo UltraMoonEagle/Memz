@@ -284,7 +284,7 @@ void RunCursorMover() {
 }
 
 
-
+// Causes Beeps from the windows machine
 void RunBeepGenerator() {
     FreeConsole();
     srand(static_cast<unsigned>(time(nullptr)));
